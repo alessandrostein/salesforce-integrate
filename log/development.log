@@ -1263,3 +1263,2949 @@ Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-31 14:10:39 -03
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-31 14:10:39 -0300
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:07:49 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rd_person.css?body=1" for 127.0.0.1 at 2014-07-31 16:07:49 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-31 16:07:49 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-31 16:07:49 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-31 16:07:49 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-31 16:07:49 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-31 16:07:49 -0300
+
+
+Started GET "/assets/rd_person.js?body=1" for 127.0.0.1 at 2014-07-31 16:07:49 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-31 16:07:49 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-31 16:07:49 -0300
+
+
+Started POST "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:07:57 -0300
+
+ActionController::RoutingError (No route matches [POST] "/rd_person/new"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.4ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:21:23 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rd_person.css?body=1" for 127.0.0.1 at 2014-07-31 16:21:23 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-31 16:21:23 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-31 16:21:23 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-31 16:21:23 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-31 16:21:23 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-31 16:21:23 -0300
+
+
+Started GET "/assets/rd_person.js?body=1" for 127.0.0.1 at 2014-07-31 16:21:23 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-31 16:21:23 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-31 16:21:23 -0300
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:21:23 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rd_person.css?body=1" for 127.0.0.1 at 2014-07-31 16:21:23 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-31 16:21:23 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-31 16:21:23 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-31 16:21:23 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-31 16:21:23 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-31 16:21:23 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-31 16:21:23 -0300
+
+
+Started GET "/assets/rd_person.js?body=1" for 127.0.0.1 at 2014-07-31 16:21:23 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-31 16:21:23 -0300
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:21:23 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rd_person.css?body=1" for 127.0.0.1 at 2014-07-31 16:21:23 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-31 16:21:23 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-31 16:21:23 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-31 16:21:23 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-31 16:21:23 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-31 16:21:23 -0300
+
+
+Started GET "/assets/rd_person.js?body=1" for 127.0.0.1 at 2014-07-31 16:21:24 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-31 16:21:24 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-31 16:21:24 -0300
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:21:24 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rd_person.css?body=1" for 127.0.0.1 at 2014-07-31 16:21:24 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-31 16:21:24 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-31 16:21:24 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-31 16:21:24 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-31 16:21:24 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-31 16:21:24 -0300
+
+
+Started GET "/assets/rd_person.js?body=1" for 127.0.0.1 at 2014-07-31 16:21:24 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-31 16:21:24 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-31 16:21:24 -0300
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:21:24 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rd_person.css?body=1" for 127.0.0.1 at 2014-07-31 16:21:24 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-31 16:21:24 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-31 16:21:24 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-31 16:21:24 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-31 16:21:24 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-31 16:21:24 -0300
+
+
+Started GET "/assets/rd_person.js?body=1" for 127.0.0.1 at 2014-07-31 16:21:24 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-31 16:21:24 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-31 16:21:24 -0300
+
+
+Started POST "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:21:32 -0300
+
+ActionController::RoutingError (No route matches [POST] "/rd_person/new"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (15.0ms)
+
+
+Started POST "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:28:51 -0300
+
+ActionController::RoutingError (No route matches [POST] "/rd_person/new"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (15.4ms)
+
+
+Started GET "/rd_person/" for 127.0.0.1 at 2014-07-31 16:28:54 -0300
+
+AbstractController::ActionNotFound (The action 'index' could not be found for RdPersonController):
+  actionpack (4.1.4) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.4) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.4) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.4) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.4) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.4) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.4) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.4) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.4) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.4) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.4) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.4) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.4) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.4) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.4ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:29:00 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_18450920'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.8ms)
+
+
+Started GET "/rd_person/" for 127.0.0.1 at 2014-07-31 16:29:03 -0300
+
+AbstractController::ActionNotFound (The action 'index' could not be found for RdPersonController):
+  actionpack (4.1.4) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.4) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.4) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.4) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.4) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.4) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.4) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.4) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.4) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.4) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.4) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.4) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.4) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.4) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.6ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:29:09 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_18450920'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.2ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:32:23 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_18450920'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.7ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:34:52 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_18450920'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.5ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:35:59 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_18450920'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.3ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:36:00 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_18450920'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.6ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:36:00 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_18450920'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.2ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:36:00 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_18450920'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.3ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:36:01 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_18450920'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.1ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:36:01 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_18450920'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.1ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:36:01 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_18450920'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.4ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:36:01 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_18450920'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.8ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:36:01 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_18450920'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.7ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:36:02 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_18450920'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.2ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:36:02 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_18450920'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.5ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:36:02 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_18450920'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.7ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:36:02 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_18450920'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.8ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:36:02 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_18450920'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.2ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:36:02 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_18450920'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.0ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:36:02 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_18450920'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.0ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:36:02 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_18450920'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.8ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:36:02 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_18450920'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.2ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:36:02 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_18450920'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.3ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:36:02 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_18450920'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.5ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:36:02 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_18450920'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.3ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:36:02 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_18450920'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.9ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:36:03 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_18450920'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.0ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:57:07 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (12.3ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined method `rd_person_path_path' for #<#<Class:0x007f58c446f068>:0x007f58c40538d0>):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: :rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_70009611259900'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.2ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:57:16 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_32275560'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.3ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:57:38 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_32275560'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.1ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:57:40 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_32275560'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.8ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:57:40 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_32275560'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.6ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:57:41 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_32275560'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.3ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:57:41 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_32275560'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.8ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:57:41 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_32275560'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.2ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:57:41 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_32275560'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.0ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:57:41 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_32275560'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.7ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:57:42 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_32275560'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.4ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:57:42 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_32275560'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.1ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:57:42 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_32275560'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.9ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:57:42 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_32275560'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.1ms)
+
+
+Started GET "/rd_person/" for 127.0.0.1 at 2014-07-31 16:57:52 -0300
+
+AbstractController::ActionNotFound (The action 'index' could not be found for RdPersonController):
+  actionpack (4.1.4) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.4) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.4) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.4) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.4) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.4) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.4) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.4) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.4) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.4) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.4) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.4) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.4) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.4) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-31 16:57:57 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rd_person.css?body=1" for 127.0.0.1 at 2014-07-31 16:57:57 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-31 16:57:57 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-07-31 16:57:57 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-31 16:57:57 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-31 16:57:57 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-07-31 16:57:57 -0300
+
+
+Started GET "/assets/rd_person.js?body=1" for 127.0.0.1 at 2014-07-31 16:57:57 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-31 16:57:57 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-07-31 16:57:57 -0300
+
+
+Started GET "/rd_person/" for 127.0.0.1 at 2014-07-31 16:58:56 -0300
+
+AbstractController::ActionNotFound (The action 'index' could not be found for RdPersonController):
+  actionpack (4.1.4) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.4) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.4) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.4) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.4) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.4) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.4) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.4) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.4) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.4) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.4) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.4) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.4) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.4) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.4) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.4ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 16:59:05 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_person_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__4231445354005446908_32275560'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.6ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 17:03:19 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 13ms
+
+SyntaxError (/home/alessandrostein/gitrepo/salesforce-integrate/app/views/rd_person/new.html.erb:3: syntax error, unexpected ',', expecting ')'
+...append=  form_for ("rd_person", :url => rd_person_path) do |...
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/views/rd_person/new.html.erb:43: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/rd_person/new.html.erb:3: syntax error, unexpected ',', expecting ')'
+  app/views/rd_person/new.html.erb:43: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.4ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-07-31 17:04:06 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (10.4ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined local variable or method `rd_persons_path' for #<#<Class:0x00000002c81b60>:0x0000000433f398>):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_persons_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb___2792279313996374652_35250340'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-01 14:09:05 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 220ms (Views: 202.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-01 14:09:05 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-01 14:09:05 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-01 14:09:05 -0300
+
+
+Started GET "/assets/rd_person.css?body=1" for 127.0.0.1 at 2014-08-01 14:09:05 -0300
+
+
+Started GET "/assets/rd_person.js?body=1" for 127.0.0.1 at 2014-08-01 14:09:05 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-01 14:09:05 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-01 14:09:05 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-01 14:09:05 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-01 14:09:05 -0300
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:09:10 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/new.html.erb within layouts/application (42.7ms)
+Completed 500 Internal Server Error in 45ms
+
+ActionView::Template::Error (undefined local variable or method `rd_persons_path' for #<#<Class:0x000000038c75f0>:0x000000038cd1f8>):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_persons_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__853124142142582876_29891900'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (34.0ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:14:38 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/_form.html.erb (1.6ms)
+  Rendered rd_person/new.html.erb within layouts/application (25.5ms)
+Completed 500 Internal Server Error in 28ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for @post do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/_form.html.erb:3:in `_app_views_rd_person__form_html_erb__1402281998048093159_69929552735680'
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__853124142142582876_69929552613540'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.4ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:15:05 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/_form.html.erb (78.2ms)
+  Rendered rd_person/new.html.erb within layouts/application (78.9ms)
+Completed 200 OK in 85ms (Views: 83.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rd_person.css?body=1" for 127.0.0.1 at 2014-08-01 14:15:05 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-01 14:15:05 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-01 14:15:05 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-01 14:15:05 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-01 14:15:05 -0300
+
+
+Started GET "/assets/rd_person.js?body=1" for 127.0.0.1 at 2014-08-01 14:15:05 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-01 14:15:05 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-01 14:15:05 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-01 14:15:05 -0300
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:15:19 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/_form.html.erb (4.5ms)
+  Rendered rd_person/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rd_person.css?body=1" for 127.0.0.1 at 2014-08-01 14:15:19 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-01 14:15:19 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-01 14:15:19 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-01 14:15:19 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-01 14:15:19 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-01 14:15:19 -0300
+
+
+Started GET "/assets/rd_person.js?body=1" for 127.0.0.1 at 2014-08-01 14:15:19 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-01 14:15:19 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-01 14:15:19 -0300
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:21:11 -0300
+
+SyntaxError (/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:11: syntax error, unexpected ':', expecting keyword_end
+   posts GET    /rd_person/:id(.:format)      posts#show
+                            ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:15: syntax error, unexpected ':', expecting keyword_end
+  #   get 'products/:id' => 'catalog#view'
+                     ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:15: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  #   get 'products/:id' => 'catalog#view'
+                                    ^):
+  config/routes.rb:11: syntax error, unexpected ':', expecting keyword_end
+  config/routes.rb:15: syntax error, unexpected ':', expecting keyword_end
+  config/routes.rb:15: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (26.1ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:21:29 -0300
+
+SyntaxError (/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:11: syntax error, unexpected ':', expecting keyword_end
+   posts GET    /rd_persons/:id(.:format)      posts#show
+                             ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:15: syntax error, unexpected ':', expecting keyword_end
+  #   get 'products/:id' => 'catalog#view'
+                     ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:15: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  #   get 'products/:id' => 'catalog#view'
+                                    ^):
+  config/routes.rb:11: syntax error, unexpected ':', expecting keyword_end
+  config/routes.rb:15: syntax error, unexpected ':', expecting keyword_end
+  config/routes.rb:15: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.6ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:21:43 -0300
+
+SyntaxError (/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:11: syntax error, unexpected ':', expecting keyword_end
+   posts GET    /rd_persons/:id(.:format)      rd_persons#show
+                             ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:15: syntax error, unexpected ':', expecting keyword_end
+  #   get 'products/:id' => 'catalog#view'
+                     ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:15: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  #   get 'products/:id' => 'catalog#view'
+                                    ^):
+  config/routes.rb:11: syntax error, unexpected ':', expecting keyword_end
+  config/routes.rb:15: syntax error, unexpected ':', expecting keyword_end
+  config/routes.rb:15: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.6ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:21:51 -0300
+
+SyntaxError (/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:11: syntax error, unexpected ':', expecting keyword_end
+   posts GET    /rd_person/:id(.:format)      rd_persons#show
+                            ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:15: syntax error, unexpected ':', expecting keyword_end
+  #   get 'products/:id' => 'catalog#view'
+                     ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:15: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  #   get 'products/:id' => 'catalog#view'
+                                    ^):
+  config/routes.rb:11: syntax error, unexpected ':', expecting keyword_end
+  config/routes.rb:15: syntax error, unexpected ':', expecting keyword_end
+  config/routes.rb:15: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.2ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:22:00 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/_form.html.erb (7.5ms)
+  Rendered rd_person/new.html.erb within layouts/application (8.1ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (undefined local variable or method `rd_persons_path' for #<#<Class:0x007f337cd55118>:0x007f337cd547b8>):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_persons_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/_form.html.erb:3:in `_app_views_rd_person__form_html_erb__1402281998048093159_69929554795640'
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__853124142142582876_69929552613540'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.3ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:23:54 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/_form.html.erb (8.9ms)
+  Rendered rd_person/new.html.erb within layouts/application (11.6ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (undefined local variable or method `rd_persons_path' for #<#<Class:0x007f337cd55118>:0x007f337ccc63a0>):
+    1: <h1> New Person </h1>
+    2: 
+    3: <%= form_for :rd_person, url: rd_persons_path do |f| %>
+    4:   <p>
+    5: 	<%= f.label :name %><br>
+    6: 	<%= f.text_field :name %>
+  app/views/rd_person/_form.html.erb:3:in `_app_views_rd_person__form_html_erb__1402281998048093159_69929554795640'
+  app/views/rd_person/new.html.erb:3:in `_app_views_rd_person_new_html_erb__853124142142582876_69929556912060'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.1ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:24:04 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/_form.html.erb (5.6ms)
+  Rendered rd_person/new.html.erb within layouts/application (20.1ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (undefined local variable or method `post_path' for #<#<Class:0x007f337cd55118>:0x007f337c98c108>):
+    2: 
+    3: <%= render 'form' %>
+    4: 
+    5: <%= link_to 'Back', post_path %>
+  app/views/rd_person/new.html.erb:5:in `_app_views_rd_person_new_html_erb__853124142142582876_69929556912060'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.4ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:24:34 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/_form.html.erb (5.1ms)
+  Rendered rd_person/new.html.erb within layouts/application (9.2ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    2: 
+    3: <%= render 'form' %>
+    4: 
+    5: <%= link_to 'Back', rd_person_path %>
+  app/views/rd_person/new.html.erb:5:in `_app_views_rd_person_new_html_erb__853124142142582876_69929553400100'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.5ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:24:37 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/_form.html.erb (1.9ms)
+  Rendered rd_person/new.html.erb within layouts/application (9.7ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (undefined local variable or method `rd_persons_path' for #<#<Class:0x007f337cd55118>:0x007f337c359bc8>):
+    2: 
+    3: <%= render 'form' %>
+    4: 
+    5: <%= link_to 'Back', rd_persons_path %>
+  app/views/rd_person/new.html.erb:5:in `_app_views_rd_person_new_html_erb__853124142142582876_69929551971060'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.5ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:24:48 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/_form.html.erb (7.5ms)
+  Rendered rd_person/new.html.erb within layouts/application (10.0ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    2: 
+    3: <%= render 'form' %>
+    4: 
+    5: <%= link_to 'Back', rd_person_path %>
+  app/views/rd_person/new.html.erb:5:in `_app_views_rd_person_new_html_erb__853124142142582876_29547580'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.6ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:26:31 -0300
+Processing by RdPersonController#new as HTML
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `resnder' for #<RdPersonController:0x00000002059090>):
+  app/controllers/rd_person_controller.rb:10:in `new'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.4ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:26:44 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/_form.html.erb (1.9ms)
+  Rendered rd_person/new.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    2: 
+    3: <%= render 'form' %>
+    4: 
+    5: <%= link_to 'Back', rd_person_path %>
+  app/views/rd_person/new.html.erb:5:in `_app_views_rd_person_new_html_erb__853124142142582876_29547580'
+  app/controllers/rd_person_controller.rb:10:in `new'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.4ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:27:21 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/_form.html.erb (2.2ms)
+  Rendered rd_person/new.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    2: 
+    3: <%= render 'form' %>
+    4: 
+    5: <%= link_to 'Back', rd_person_path %>
+  app/views/rd_person/new.html.erb:5:in `_app_views_rd_person_new_html_erb__853124142142582876_29547580'
+  app/controllers/rd_person_controller.rb:10:in `new'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.4ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:27:23 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/_form.html.erb (2.8ms)
+  Rendered rd_person/new.html.erb within layouts/application (4.7ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    2: 
+    3: <%= render 'form' %>
+    4: 
+    5: <%= link_to 'Back', rd_person_path %>
+  app/views/rd_person/new.html.erb:5:in `_app_views_rd_person_new_html_erb__853124142142582876_29547580'
+  app/controllers/rd_person_controller.rb:10:in `new'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.5ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:27:39 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/_form.html.erb (2.0ms)
+  Rendered rd_person/new.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    2: 
+    3: <%= render 'form' %>
+    4: 
+    5: <%= link_to 'Back', rd_person_path %>
+  app/views/rd_person/new.html.erb:5:in `_app_views_rd_person_new_html_erb__853124142142582876_29547580'
+  app/controllers/rd_person_controller.rb:10:in `new'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.2ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:27:40 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/_form.html.erb (2.9ms)
+  Rendered rd_person/new.html.erb within layouts/application (4.6ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    2: 
+    3: <%= render 'form' %>
+    4: 
+    5: <%= link_to 'Back', rd_person_path %>
+  app/views/rd_person/new.html.erb:5:in `_app_views_rd_person_new_html_erb__853124142142582876_29547580'
+  app/controllers/rd_person_controller.rb:10:in `new'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.8ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:27:40 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/_form.html.erb (2.2ms)
+  Rendered rd_person/new.html.erb within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    2: 
+    3: <%= render 'form' %>
+    4: 
+    5: <%= link_to 'Back', rd_person_path %>
+  app/views/rd_person/new.html.erb:5:in `_app_views_rd_person_new_html_erb__853124142142582876_29547580'
+  app/controllers/rd_person_controller.rb:10:in `new'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.4ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:27:40 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/_form.html.erb (1.8ms)
+  Rendered rd_person/new.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    2: 
+    3: <%= render 'form' %>
+    4: 
+    5: <%= link_to 'Back', rd_person_path %>
+  app/views/rd_person/new.html.erb:5:in `_app_views_rd_person_new_html_erb__853124142142582876_29547580'
+  app/controllers/rd_person_controller.rb:10:in `new'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.9ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:29:41 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/_form.html.erb (2.2ms)
+  Rendered rd_person/new.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    2: 
+    3: <%= render 'form' %>
+    4: 
+    5: <%= link_to 'Back', rd_person_path %>
+  app/views/rd_person/new.html.erb:5:in `_app_views_rd_person_new_html_erb__853124142142582876_29547580'
+  app/controllers/rd_person_controller.rb:10:in `new'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.6ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:29:46 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/_form.html.erb (1.9ms)
+  Rendered rd_person/new.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    2: 
+    3: <%= render 'form' %>
+    4: 
+    5: <%= link_to 'Back', rd_person_path %>
+  app/views/rd_person/new.html.erb:5:in `_app_views_rd_person_new_html_erb__853124142142582876_29547580'
+  app/controllers/rd_person_controller.rb:10:in `new'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.6ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:32:17 -0300
+Processing by RdPersonController#new as HTML
+  Rendered rd_person/_form.html.erb (1.9ms)
+  Rendered rd_person/new.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    2: 
+    3: <%= render 'form' %>
+    4: 
+    5: <%= link_to 'Back', rd_person_path %>
+  app/views/rd_person/new.html.erb:5:in `_app_views_rd_person_new_html_erb__853124142142582876_29547580'
+  app/controllers/rd_person_controller.rb:10:in `new'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.9ms)
+
+
+Started GET "/rd_person/new?17" for 127.0.0.1 at 2014-08-01 14:32:24 -0300
+Processing by RdPersonController#new as HTML
+  Parameters: {"17"=>nil}
+  Rendered rd_person/_form.html.erb (2.9ms)
+  Rendered rd_person/new.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    2: 
+    3: <%= render 'form' %>
+    4: 
+    5: <%= link_to 'Back', rd_person_path %>
+  app/views/rd_person/new.html.erb:5:in `_app_views_rd_person_new_html_erb__853124142142582876_29547580'
+  app/controllers/rd_person_controller.rb:10:in `new'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.8ms)
+
+
+Started GET "/rd_person/new?id:10" for 127.0.0.1 at 2014-08-01 14:32:34 -0300
+Processing by RdPersonController#new as HTML
+  Parameters: {"id:10"=>nil}
+  Rendered rd_person/_form.html.erb (3.5ms)
+  Rendered rd_person/new.html.erb within layouts/application (5.5ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"rd_person"} missing required keys: [:id]):
+    2: 
+    3: <%= render 'form' %>
+    4: 
+    5: <%= link_to 'Back', rd_person_path %>
+  app/views/rd_person/new.html.erb:5:in `_app_views_rd_person_new_html_erb__853124142142582876_29547580'
+  app/controllers/rd_person_controller.rb:10:in `new'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.2ms)
+
+
+Started GET "/rd_person/new?id:10" for 127.0.0.1 at 2014-08-01 14:35:00 -0300
+
+SyntaxError (/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:12: unknown regexp option - d
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:12: syntax error, unexpected '(', expecting keyword_end
+     welcome_index GET    /welcome/index(.:format)      welcome#index
+                                         ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:14: unknown regexp options - rd
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:14: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+                POST   /rd_person(.:format)          rd_person#create
+                                 ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:15: unknown regexp option - w
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:15: syntax error, unexpected '(', expecting keyword_end
+  new_rd_person GET    /rd_person/new(.:format)      rd_person#new
+                                      ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:16: syntax error, unexpected ':', expecting keyword_end
+ edit_rd_person GET    /rd_person/:id/edit(.:format) rd_person#edit
+                                   ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:16: syntax error, unexpected '.', expecting ')'
+ edit_rd_person GET    /rd_person/:id/edit(.:format) rd_person#edit
+                                            ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:17: syntax error, unexpected ':', expecting keyword_end
+      rd_person GET    /rd_person/:id(.:format)      rd_person#show
+                                   ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:18: syntax error, unexpected ':', expecting keyword_end
+                PATCH  /rd_person/:id(.:format)      rd_person#update
+                                   ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:19: syntax error, unexpected ':', expecting keyword_end
+                PUT    /rd_person/:id(.:format)      rd_person#update
+                                   ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:20: syntax error, unexpected ':', expecting keyword_end
+                DELETE /rd_person/:id(.:format)      rd_person#destroy
+                                   ^):
+  config/routes.rb:12: unknown regexp option - d
+  config/routes.rb:12: syntax error, unexpected '(', expecting keyword_end
+  config/routes.rb:14: unknown regexp options - rd
+  config/routes.rb:14: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  config/routes.rb:15: unknown regexp option - w
+  config/routes.rb:15: syntax error, unexpected '(', expecting keyword_end
+  config/routes.rb:16: syntax error, unexpected ':', expecting keyword_end
+  config/routes.rb:16: syntax error, unexpected '.', expecting ')'
+  config/routes.rb:17: syntax error, unexpected ':', expecting keyword_end
+  config/routes.rb:18: syntax error, unexpected ':', expecting keyword_end
+  config/routes.rb:19: syntax error, unexpected ':', expecting keyword_end
+  config/routes.rb:20: syntax error, unexpected ':', expecting keyword_end
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.5ms)
+
+
+Started GET "/rd_person/new?id:10" for 127.0.0.1 at 2014-08-01 14:35:09 -0300
+
+SyntaxError (/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:14: unknown regexp options - rd
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:14: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+                POST   /rd_person(.:format)          rd_person#create
+                                 ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:15: unknown regexp option - w
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:15: syntax error, unexpected '(', expecting keyword_end
+  new_rd_person GET    /rd_person/new(.:format)      rd_person#new
+                                      ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:16: syntax error, unexpected ':', expecting keyword_end
+ edit_rd_person GET    /rd_person/:id/edit(.:format) rd_person#edit
+                                   ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:16: syntax error, unexpected '.', expecting ')'
+ edit_rd_person GET    /rd_person/:id/edit(.:format) rd_person#edit
+                                            ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:17: syntax error, unexpected ':', expecting keyword_end
+      rd_person GET    /rd_person/:id(.:format)      rd_person#show
+                                   ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:18: syntax error, unexpected ':', expecting keyword_end
+                PATCH  /rd_person/:id(.:format)      rd_person#update
+                                   ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:19: syntax error, unexpected ':', expecting keyword_end
+                PUT    /rd_person/:id(.:format)      rd_person#update
+                                   ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:20: syntax error, unexpected ':', expecting keyword_end
+                DELETE /rd_person/:id(.:format)      rd_person#destroy
+                                   ^):
+  config/routes.rb:14: unknown regexp options - rd
+  config/routes.rb:14: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  config/routes.rb:15: unknown regexp option - w
+  config/routes.rb:15: syntax error, unexpected '(', expecting keyword_end
+  config/routes.rb:16: syntax error, unexpected ':', expecting keyword_end
+  config/routes.rb:16: syntax error, unexpected '.', expecting ')'
+  config/routes.rb:17: syntax error, unexpected ':', expecting keyword_end
+  config/routes.rb:18: syntax error, unexpected ':', expecting keyword_end
+  config/routes.rb:19: syntax error, unexpected ':', expecting keyword_end
+  config/routes.rb:20: syntax error, unexpected ':', expecting keyword_end
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.8ms)
+
+
+Started GET "/rd_person/new?id:10" for 127.0.0.1 at 2014-08-01 14:35:17 -0300
+
+SyntaxError (/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:14: unknown regexp options - rd
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:14: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      #          POST   /rd_person(.:format)          rd_person#create
+                                  ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:15: unknown regexp option - w
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:15: syntax error, unexpected '(', expecting keyword_end
+  new_rd_person GET    /rd_person/new(.:format)      rd_person#new
+                                      ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:16: syntax error, unexpected ':', expecting keyword_end
+ edit_rd_person GET    /rd_person/:id/edit(.:format) rd_person#edit
+                                   ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:16: syntax error, unexpected '.', expecting ')'
+ edit_rd_person GET    /rd_person/:id/edit(.:format) rd_person#edit
+                                            ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:17: syntax error, unexpected ':', expecting keyword_end
+      rd_person GET    /rd_person/:id(.:format)      rd_person#show
+                                   ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:18: syntax error, unexpected ':', expecting keyword_end
+                PATCH  /rd_person/:id(.:format)      rd_person#update
+                                   ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:19: syntax error, unexpected ':', expecting keyword_end
+                PUT    /rd_person/:id(.:format)      rd_person#update
+                                   ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:20: syntax error, unexpected ':', expecting keyword_end
+                DELETE /rd_person/:id(.:format)      rd_person#destroy
+                                   ^):
+  config/routes.rb:14: unknown regexp options - rd
+  config/routes.rb:14: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  config/routes.rb:15: unknown regexp option - w
+  config/routes.rb:15: syntax error, unexpected '(', expecting keyword_end
+  config/routes.rb:16: syntax error, unexpected ':', expecting keyword_end
+  config/routes.rb:16: syntax error, unexpected '.', expecting ')'
+  config/routes.rb:17: syntax error, unexpected ':', expecting keyword_end
+  config/routes.rb:18: syntax error, unexpected ':', expecting keyword_end
+  config/routes.rb:19: syntax error, unexpected ':', expecting keyword_end
+  config/routes.rb:20: syntax error, unexpected ':', expecting keyword_end
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.1ms)
+
+
+Started GET "/rd_person/new?id:10" for 127.0.0.1 at 2014-08-01 14:35:35 -0300
+
+SyntaxError (/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:14: unknown regexp options - rd
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:14: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  new_rd_person GET    /rd_person/new(.:format)      rd_person#new
+                                 ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:14: syntax error, unexpected '.', expecting ')'
+  new_rd_person GET    /rd_person/new(.:format)      rd_person#new
+                                       ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:15: syntax error, unexpected ':', expecting keyword_end
+  edit_rd_person GET    /rd_person/:id/edit(.:format) rd_person#edit
+                                    ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:15: syntax error, unexpected '.', expecting ')'
+  edit_rd_person GET    /rd_person/:id/edit(.:format) rd_person#edit
+                                             ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:16: syntax error, unexpected ':', expecting keyword_end
+  rd_person GET    /rd_person/:id(.:format)      rd_person#show
+                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:17: syntax error, unexpected ':', expecting keyword_end
+                PATCH  /rd_person/:id(.:format)      rd_person#update
+                                   ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:18: syntax error, unexpected ':', expecting keyword_end
+                PUT    /rd_person/:id(.:format)      rd_person#update
+                                   ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:19: syntax error, unexpected ':', expecting keyword_end
+                DELETE /rd_person/:id(.:format)      rd_person#destroy
+                                   ^):
+  config/routes.rb:14: unknown regexp options - rd
+  config/routes.rb:14: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  config/routes.rb:14: syntax error, unexpected '.', expecting ')'
+  config/routes.rb:15: syntax error, unexpected ':', expecting keyword_end
+  config/routes.rb:15: syntax error, unexpected '.', expecting ')'
+  config/routes.rb:16: syntax error, unexpected ':', expecting keyword_end
+  config/routes.rb:17: syntax error, unexpected ':', expecting keyword_end
+  config/routes.rb:18: syntax error, unexpected ':', expecting keyword_end
+  config/routes.rb:19: syntax error, unexpected ':', expecting keyword_end
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.0ms)
+
+
+Started GET "/rd_person/new?id:10" for 127.0.0.1 at 2014-08-01 14:35:36 -0300
+
+ActionController::RoutingError (No route matches [GET] "/rd_person/new"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (13.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.1ms)
+
+
+Started GET "/rd_person/new?id:10" for 127.0.0.1 at 2014-08-01 14:35:37 -0300
+
+ActionController::RoutingError (No route matches [GET] "/rd_person/new"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (8.2ms)
+
+
+Started GET "/rd_person/new?id:10" for 127.0.0.1 at 2014-08-01 14:35:38 -0300
+
+ActionController::RoutingError (No route matches [GET] "/rd_person/new"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (7.8ms)
+
+
+Started GET "/rd_person/new?id:10" for 127.0.0.1 at 2014-08-01 14:35:38 -0300
+
+ActionController::RoutingError (No route matches [GET] "/rd_person/new"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (8.0ms)
+
+
+Started GET "/rd_person/new?id:10" for 127.0.0.1 at 2014-08-01 14:35:38 -0300
+
+ActionController::RoutingError (No route matches [GET] "/rd_person/new"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (7.7ms)
+
+
+Started GET "/rd_person/new?id:10" for 127.0.0.1 at 2014-08-01 14:35:38 -0300
+
+ActionController::RoutingError (No route matches [GET] "/rd_person/new"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (8.7ms)
+
+
+Started GET "/rd_person/new?id:10" for 127.0.0.1 at 2014-08-01 14:35:39 -0300
+
+ActionController::RoutingError (No route matches [GET] "/rd_person/new"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (7.7ms)
+
+
+Started GET "/rd_person/new?id:10" for 127.0.0.1 at 2014-08-01 14:35:39 -0300
+
+ActionController::RoutingError (No route matches [GET] "/rd_person/new"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.6ms)
+
+
+Started GET "/rd_person/new?id:10" for 127.0.0.1 at 2014-08-01 14:35:39 -0300
+
+ActionController::RoutingError (No route matches [GET] "/rd_person/new"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (8.5ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:35:42 -0300
+
+ActionController::RoutingError (No route matches [GET] "/rd_person/new"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (10.2ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:36:03 -0300
+
+SyntaxError (/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:14: unknown regexp options - rd
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:14: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  new_rd_person GET    /rd_person/new(.:format)      rd_person#new
+                                 ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:14: syntax error, unexpected '.', expecting ')'
+  new_rd_person GET    /rd_person/new(.:format)      rd_person#new
+                                       ^):
+  config/routes.rb:14: unknown regexp options - rd
+  config/routes.rb:14: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  config/routes.rb:14: syntax error, unexpected '.', expecting ')'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.4ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:36:04 -0300
+
+ActionController::RoutingError (No route matches [GET] "/rd_person/new"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (11.5ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:36:05 -0300
+
+ActionController::RoutingError (No route matches [GET] "/rd_person/new"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (8.3ms)
+
+
+Started GET "/rd_person/new?id:10" for 127.0.0.1 at 2014-08-01 14:36:08 -0300
+
+ActionController::RoutingError (No route matches [GET] "/rd_person/new"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (7.9ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:36:11 -0300
+
+ActionController::RoutingError (No route matches [GET] "/rd_person/new"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (12.0ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:36:38 -0300
+
+SyntaxError (/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:14: unknown regexp options - rd
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:14: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  new_rd_person GET    /rd_person/new(.:format)      rd_person#new
+                                 ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:14: syntax error, unexpected '.', expecting ')'
+  new_rd_person GET    /rd_person/new(.:format)      rd_person#new
+                                       ^):
+  config/routes.rb:14: unknown regexp options - rd
+  config/routes.rb:14: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  config/routes.rb:14: syntax error, unexpected '.', expecting ')'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.3ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:41:10 -0300
+
+SyntaxError (/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:12: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  math 'inicio' => 'rd_person#show', via 'get'
+                                          ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:13: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  math 'new' => 'rd_person#create', via 'get'
+                                         ^):
+  config/routes.rb:12: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  config/routes.rb:13: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.5ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (26.8ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:41:11 -0300
+
+ActionController::RoutingError (No route matches [GET] "/rd_person/new"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (8.1ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:41:12 -0300
+
+ActionController::RoutingError (No route matches [GET] "/rd_person/new"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (7.9ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:41:12 -0300
+
+ActionController::RoutingError (No route matches [GET] "/rd_person/new"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (7.7ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:41:12 -0300
+
+ActionController::RoutingError (No route matches [GET] "/rd_person/new"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (7.9ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:41:13 -0300
+
+ActionController::RoutingError (No route matches [GET] "/rd_person/new"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (8.3ms)
+
+
+Started GET "/rd_person/new" for 127.0.0.1 at 2014-08-01 14:41:19 -0300
+
+SyntaxError (/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:12: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  math 'inicio' => 'rd_person#show', via 'get'
+                                          ^
+/home/alessandrostein/gitrepo/salesforce-integrate/config/routes.rb:13: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  math 'new' => 'rd_person#new', via 'get'
+                                      ^):
+  config/routes.rb:12: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  config/routes.rb:13: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.8ms)
