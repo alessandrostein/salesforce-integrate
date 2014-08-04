@@ -1,0 +1,17 @@
+<%= form_tag :action => 'create' do %>
+	Name: <%= text_field :lead, :name %>
+	
+	Last Name: <%= text_field :lead, :last_name %>
+
+	Email: <%= text_field :lead, :email %>
+
+	Company: <%= text_field :lead, :company %>
+
+	Job Title: <%= text_field :lead, :job_title %>
+
+	Phone: <%= text_field :lead, :phone %>
+
+	Website: <%= text_field :lead, :website %>
+	
+	<%= submit_tag 'Create' %>
+<% end %>
