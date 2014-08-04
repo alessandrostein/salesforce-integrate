@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
+=======
+  resources :people
+
+  get 'welcome/index'
+>>>>>>> parent of eafc8c4... Remove scaffold people and create a new scaffold lead
 
   resources :leads  
   # The priority is based upon order of creation: first created -> highest priority.

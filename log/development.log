@@ -2318,6 +2318,7 @@ NoMethodError (undefined method `name' for #<ActionController::Parameters:0x007f
 
   Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
   Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+<<<<<<< HEAD
   Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
   Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.7ms)
 
@@ -2648,3 +2649,7 @@ Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-04 11:52:47 
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-04 11:52:47 -0300
+=======
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.8ms)
+>>>>>>> parent of eafc8c4... Remove scaffold people and create a new scaffold lead
