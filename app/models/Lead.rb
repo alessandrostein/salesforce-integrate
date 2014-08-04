@@ -1,0 +1,3 @@
+class Lead
+
+end
