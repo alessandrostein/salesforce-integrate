@@ -1,8 +1,11 @@
 Rails.application.routes.draw do
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   resources :people
 
+=======
+>>>>>>> parent of 8882327... Generate Scaffolds
   get 'welcome/index'
 >>>>>>> parent of eafc8c4... Remove scaffold people and create a new scaffold lead
 
@@ -11,7 +14,12 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
+<<<<<<< HEAD
   # root 'welcome#index'
+=======
+   resources :rd_person
+   root 'welcome#index'
+>>>>>>> parent of 8882327... Generate Scaffolds
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

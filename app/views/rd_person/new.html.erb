@@ -1,0 +1,42 @@
+<h1> New Person </h1>
+
+<%= form_for :rd_person do |f| %>
+  <p>
+	<%= f.label :name %><br>
+	<%= f.text_field :name %>
+  </p>
+ 
+  <p>
+	<%= f.label :last_name %><br>
+	<%= f.text_field :last_name %>
+  </p>
+
+  <p>
+   <%= f.label :email %><br>
+	<%= f.text_field :email %>
+  </p>
+
+  <p>
+	<%= f.label :company %><br>
+	<%= f.text_field :company %>
+  </p>
+
+  <p>
+	<%= f.label :job_title %><br>
+	<%= f.text_field :job_title %>
+  </p>
+
+  <p>
+	<%= f.label :phone %><br>
+	<%= f.text_field :phone %>
+  </p>
+ 
+  <p>
+	<%= f.label :website %><br>
+	<%= f.text_field :website %>
+  </p>
+
+  <p>
+	<%= f.submit %>
+  </p>
+<% end %>
