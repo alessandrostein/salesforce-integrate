@@ -28,6 +28,9 @@ class LeadsController < ApplicationController
   def create
     @lead = Lead.new(lead_params)
 
+    @people = set_lead_rd_person
+    @client = config_rd_person
+
     respond_to do |format|
       if @lead.save
         format.html { redirect_to @lead, notice: 'Lead was successfully created.' }
@@ -72,5 +75,14 @@ class LeadsController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def lead_params
       params.require(:lead).permit(:name, :last_name, :email, :company, :job_title, :phone, :website)
+    end
+
+    def config_rd_person
+      @client = SalesforceClient.new('', '', '', '', '')
+    end
+
+    def set_lead_rd_person
+      @people = Person.new(@lead.name, @lead.last_name, @lead.email, @lead.company, 
+                           @lead.job_title, @lead.phone, @lead.website)
     end
 end

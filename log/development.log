@@ -1784,3 +1784,161 @@ ActionView::MissingTemplate (Missing template leads/create, application/create w
 
 
   Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (0.4ms)
+
+
+Started GET "/leads/new" for 127.0.0.1 at 2014-08-05 15:57:45 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:87: syntax error, unexpected ',', expecting '('
+....name, @lead.last_name, @lead., @lead.company, 
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:88: syntax error, unexpected ')', expecting '='):
+  app/controllers/leads_controller.rb:87: syntax error, unexpected ',', expecting '('
+  app/controllers/leads_controller.rb:88: syntax error, unexpected ')', expecting '='
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.6ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.8ms)
+
+
+Started GET "/leads/new" for 127.0.0.1 at 2014-08-05 15:58:50 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LeadsController#new as HTML
+  Rendered leads/_form.html.erb (21.2ms)
+  Rendered leads/new.html.erb within layouts/application (25.4ms)
+Completed 200 OK in 71ms (Views: 56.6ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-05 15:58:50 -0300
+
+
+Started GET "/assets/leads.css?body=1" for 127.0.0.1 at 2014-08-05 15:58:50 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 15:58:50 -0300
+
+
+Started GET "/assets/lead.css?body=1" for 127.0.0.1 at 2014-08-05 15:58:50 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 15:58:50 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 15:58:50 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 15:58:50 -0300
+
+
+Started GET "/assets/lead.js?body=1" for 127.0.0.1 at 2014-08-05 15:58:50 -0300
+
+
+Started GET "/assets/leads.js?body=1" for 127.0.0.1 at 2014-08-05 15:58:50 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 15:58:50 -0300
+
+
+Started POST "/leads" for 127.0.0.1 at 2014-08-05 15:58:57 -0300
+Processing by LeadsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qLKK8sC3fMPAGLW39AkwdWD/12z2tvHo3Xcl5kgAPsE=", "lead"=>{"name"=>"8", "last_name"=>"8", "email"=>"5", "company"=>"5", "job_title"=>"4", "phone"=>"5", "website"=>"9"}, "commit"=>"Create Lead"}
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (1.3ms)[0m  [1mINSERT INTO "leads" ("company", "created_at", "email", "job_title", "last_name", "name", "phone", "updated_at", "website") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["company", "5"], ["created_at", "2014-08-05 18:58:57.214359"], ["email", "5"], ["job_title", "4"], ["last_name", "8"], ["name", "8"], ["phone", "5"], ["updated_at", "2014-08-05 18:58:57.214359"], ["website", "9"]]
+  [1m[35m (72.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/leads/2
+Completed 302 Found in 143ms (ActiveRecord: 74.3ms)
+
+
+Started GET "/leads/2" for 127.0.0.1 at 2014-08-05 15:58:57 -0300
+Processing by LeadsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mLead Load (0.5ms)[0m  [1mSELECT  "leads".* FROM "leads"  WHERE "leads"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered leads/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 10ms (Views: 6.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/leads.css?body=1" for 127.0.0.1 at 2014-08-05 15:58:57 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-05 15:58:57 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 15:58:57 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 15:58:57 -0300
+
+
+Started GET "/assets/lead.js?body=1" for 127.0.0.1 at 2014-08-05 15:58:57 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 15:58:57 -0300
+
+
+Started GET "/assets/leads.js?body=1" for 127.0.0.1 at 2014-08-05 15:58:57 -0300
+
+
+Started GET "/assets/lead.css?body=1" for 127.0.0.1 at 2014-08-05 15:58:57 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 15:58:57 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 15:58:57 -0300
+
+
+Started GET "/leads" for 127.0.0.1 at 2014-08-05 15:58:59 -0300
+Processing by LeadsController#index as HTML
+  [1m[35mLead Load (0.8ms)[0m  SELECT "leads".* FROM "leads"
+  Rendered leads/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 13ms (Views: 10.8ms | ActiveRecord: 0.8ms)
+
+
+Started DELETE "/leads/2" for 127.0.0.1 at 2014-08-05 15:59:02 -0300
+Processing by LeadsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"qLKK8sC3fMPAGLW39AkwdWD/12z2tvHo3Xcl5kgAPsE=", "id"=>"2"}
+  [1m[36mLead Load (0.7ms)[0m  [1mSELECT  "leads".* FROM "leads"  WHERE "leads"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "leads" WHERE "leads"."id" = $1[0m  [["id", 2]]
+  [1m[35m (28.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/leads
+Completed 302 Found in 34ms (ActiveRecord: 29.6ms)
+
+
+Started GET "/leads" for 127.0.0.1 at 2014-08-05 15:59:02 -0300
+Processing by LeadsController#index as HTML
+  [1m[36mLead Load (0.8ms)[0m  [1mSELECT "leads".* FROM "leads"[0m
+  Rendered leads/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 15:59:02 -0300
+
+
+Started GET "/assets/lead.css?body=1" for 127.0.0.1 at 2014-08-05 15:59:02 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 15:59:02 -0300
+
+
+Started GET "/assets/leads.css?body=1" for 127.0.0.1 at 2014-08-05 15:59:02 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-05 15:59:02 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 15:59:02 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 15:59:02 -0300
+
+
+Started GET "/assets/lead.js?body=1" for 127.0.0.1 at 2014-08-05 15:59:02 -0300
+
+
+Started GET "/assets/leads.js?body=1" for 127.0.0.1 at 2014-08-05 15:59:02 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 15:59:02 -0300
