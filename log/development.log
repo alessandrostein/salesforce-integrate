@@ -1942,3 +1942,538 @@ Started GET "/assets/leads.js?body=1" for 127.0.0.1 at 2014-08-05 15:59:02 -0300
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 15:59:02 -0300
+
+
+Started GET "/leads" for 127.0.0.1 at 2014-08-05 16:03:47 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:35: syntax error, unexpected '(', expecting keyword_then or ';' or '\n'
+      if @client(@people)
+                 ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:43: syntax error, unexpected keyword_else, expecting keyword_end
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:95: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/leads_controller.rb:35: syntax error, unexpected '(', expecting keyword_then or ';' or '\n'
+  app/controllers/leads_controller.rb:43: syntax error, unexpected keyword_else, expecting keyword_end
+  app/controllers/leads_controller.rb:95: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.3ms)
+
+
+Started GET "/leads" for 127.0.0.1 at 2014-08-05 16:04:43 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LeadsController#index as HTML
+  [1m[35mLead Load (1.3ms)[0m  SELECT "leads".* FROM "leads"
+  Rendered leads/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 46ms (Views: 35.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/lead.css?body=1" for 127.0.0.1 at 2014-08-05 16:04:43 -0300
+
+
+Started GET "/assets/leads.css?body=1" for 127.0.0.1 at 2014-08-05 16:04:43 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 16:04:43 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 16:04:43 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-05 16:04:43 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 16:04:43 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 16:04:43 -0300
+
+
+Started GET "/assets/lead.js?body=1" for 127.0.0.1 at 2014-08-05 16:04:43 -0300
+
+
+Started GET "/assets/leads.js?body=1" for 127.0.0.1 at 2014-08-05 16:04:43 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 16:04:43 -0300
+
+
+Started GET "/leads/new" for 127.0.0.1 at 2014-08-05 16:04:44 -0300
+Processing by LeadsController#new as HTML
+  Rendered leads/_form.html.erb (33.9ms)
+  Rendered leads/new.html.erb within layouts/application (37.8ms)
+Completed 200 OK in 53ms (Views: 45.5ms | ActiveRecord: 3.9ms)
+
+
+Started POST "/leads" for 127.0.0.1 at 2014-08-05 16:05:46 -0300
+Processing by LeadsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qLKK8sC3fMPAGLW39AkwdWD/12z2tvHo3Xcl5kgAPsE=", "lead"=>{"name"=>"5", "last_name"=>"5", "email"=>"5", "company"=>"5", "job_title"=>"5", "phone"=>"5", "website"=>"5"}, "commit"=>"Create Lead"}
+Completed 500 Internal Server Error in 2587ms
+
+Faraday::Error::ClientError (INVALID_EMAIL_ADDRESS: Email: invalid email address: 5):
+  app/controllers/leads_controller.rb:35:in `block in create'
+  app/controllers/leads_controller.rb:34:in `create'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+
+
+Started POST "/leads" for 127.0.0.1 at 2014-08-05 16:06:38 -0300
+Processing by LeadsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qLKK8sC3fMPAGLW39AkwdWD/12z2tvHo3Xcl5kgAPsE=", "lead"=>{"name"=>"Alessandro", "last_name"=>"Stein", "email"=>"alessandro@alessandrostein.com", "company"=>"Estudante", "job_title"=>"Estudante", "phone"=>"33758878", "website"=>"wwww.teste.com.br"}, "commit"=>"Create Lead"}
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "leads" ("company", "created_at", "email", "job_title", "last_name", "name", "phone", "updated_at", "website") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"  [["company", "Estudante"], ["created_at", "2014-08-05 19:06:40.501989"], ["email", "alessandro@alessandrostein.com"], ["job_title", "Estudante"], ["last_name", "Stein"], ["name", "Alessandro"], ["phone", "33758878"], ["updated_at", "2014-08-05 19:06:40.501989"], ["website", "wwww.teste.com.br"]]
+  [1m[36m (27.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/leads/3
+Completed 302 Found in 2176ms (ActiveRecord: 31.0ms)
+
+
+Started GET "/leads/3" for 127.0.0.1 at 2014-08-05 16:06:40 -0300
+Processing by LeadsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mLead Load (0.7ms)[0m  SELECT  "leads".* FROM "leads"  WHERE "leads"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered leads/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 17ms (Views: 13.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/lead.css?body=1" for 127.0.0.1 at 2014-08-05 16:06:40 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-05 16:06:40 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 16:06:40 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 16:06:40 -0300
+
+
+Started GET "/assets/leads.css?body=1" for 127.0.0.1 at 2014-08-05 16:06:40 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 16:06:40 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 16:06:40 -0300
+
+
+Started GET "/assets/lead.js?body=1" for 127.0.0.1 at 2014-08-05 16:06:40 -0300
+
+
+Started GET "/assets/leads.js?body=1" for 127.0.0.1 at 2014-08-05 16:06:40 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 16:06:40 -0300
+
+
+Started GET "/leads" for 127.0.0.1 at 2014-08-05 16:10:03 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LeadsController#index as HTML
+  [1m[35mLead Load (1.3ms)[0m  SELECT "leads".* FROM "leads"
+  Rendered leads/index.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 58ms (Views: 43.0ms | ActiveRecord: 6.0ms)
+
+
+Started DELETE "/leads/3" for 127.0.0.1 at 2014-08-05 16:10:06 -0300
+Processing by LeadsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"qLKK8sC3fMPAGLW39AkwdWD/12z2tvHo3Xcl5kgAPsE=", "id"=>"3"}
+  [1m[36mLead Load (0.6ms)[0m  [1mSELECT  "leads".* FROM "leads"  WHERE "leads"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mDELETE FROM "leads" WHERE "leads"."id" = $1[0m  [["id", 3]]
+  [1m[35m (38.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/leads
+Completed 302 Found in 49ms (ActiveRecord: 40.4ms)
+
+
+Started GET "/leads" for 127.0.0.1 at 2014-08-05 16:10:07 -0300
+Processing by LeadsController#index as HTML
+  [1m[36mLead Load (0.6ms)[0m  [1mSELECT "leads".* FROM "leads"[0m
+  Rendered leads/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/leads.css?body=1" for 127.0.0.1 at 2014-08-05 16:10:07 -0300
+
+
+Started GET "/assets/lead.css?body=1" for 127.0.0.1 at 2014-08-05 16:10:07 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-05 16:10:07 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 16:10:07 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 16:10:07 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 16:10:07 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 16:10:07 -0300
+
+
+Started GET "/assets/lead.js?body=1" for 127.0.0.1 at 2014-08-05 16:10:07 -0300
+
+
+Started GET "/assets/leads.js?body=1" for 127.0.0.1 at 2014-08-05 16:10:07 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 16:10:07 -0300
+
+
+Started GET "/leads/new" for 127.0.0.1 at 2014-08-05 16:10:08 -0300
+Processing by LeadsController#new as HTML
+  Rendered leads/_form.html.erb (28.5ms)
+  Rendered leads/new.html.erb within layouts/application (32.4ms)
+Completed 200 OK in 39ms (Views: 37.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/leads" for 127.0.0.1 at 2014-08-05 16:10:11 -0300
+Processing by LeadsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qLKK8sC3fMPAGLW39AkwdWD/12z2tvHo3Xcl5kgAPsE=", "lead"=>{"name"=>"5", "last_name"=>"5", "email"=>"5", "company"=>"5", "job_title"=>"5", "phone"=>"5", "website"=>"5"}, "commit"=>"Create Lead"}
+  Rendered leads/_form.html.erb (5.2ms)
+  Rendered leads/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 3711ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/leads.css?body=1" for 127.0.0.1 at 2014-08-05 16:10:15 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-05 16:10:15 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 16:10:15 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 16:10:15 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 16:10:15 -0300
+
+
+Started GET "/assets/lead.css?body=1" for 127.0.0.1 at 2014-08-05 16:10:15 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 16:10:15 -0300
+
+
+Started GET "/assets/lead.js?body=1" for 127.0.0.1 at 2014-08-05 16:10:15 -0300
+
+
+Started GET "/assets/leads.js?body=1" for 127.0.0.1 at 2014-08-05 16:10:15 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 16:10:15 -0300
+
+
+Started POST "/leads" for 127.0.0.1 at 2014-08-05 16:10:22 -0300
+Processing by LeadsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qLKK8sC3fMPAGLW39AkwdWD/12z2tvHo3Xcl5kgAPsE=", "lead"=>{"name"=>"5", "last_name"=>"5", "email"=>"5", "company"=>"5", "job_title"=>"5", "phone"=>"5", "website"=>"5"}, "commit"=>"Create Lead"}
+  Rendered leads/_form.html.erb (8.2ms)
+  Rendered leads/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 1877ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lead.css?body=1" for 127.0.0.1 at 2014-08-05 16:10:24 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-05 16:10:24 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 16:10:24 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 16:10:24 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 16:10:24 -0300
+
+
+Started GET "/assets/leads.css?body=1" for 127.0.0.1 at 2014-08-05 16:10:24 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 16:10:24 -0300
+
+
+Started GET "/assets/lead.js?body=1" for 127.0.0.1 at 2014-08-05 16:10:24 -0300
+
+
+Started GET "/assets/leads.js?body=1" for 127.0.0.1 at 2014-08-05 16:10:24 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 16:10:24 -0300
+
+
+Started POST "/leads" for 127.0.0.1 at 2014-08-05 16:15:55 -0300
+
+SyntaxError (/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:60: syntax error, unexpected tCONSTANT, expecting '}'
+...edirect_to @lead, notice: 'Lead was successfully updated.' }
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:60: syntax error, unexpected tSTRING_BEG, expecting '('
+...Lead was successfully updated.' }
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:74: syntax error, unexpected tCONSTANT, expecting '}'
+...ect_to leads_url, notice: 'Lead was successfully destroyed.'...
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:74: syntax error, unexpected tSTRING_BEG, expecting '('
+...ad was successfully destroyed.' }
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:91: syntax error, unexpected tIDENTIFIER, expecting '}'
+...lesforceClient.new('thecaiogama@gmail.com', 'asdfg123', 'm5n...
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:91: syntax error, unexpected tIDENTIFIER, expecting '}'
+...ecaiogama@gmail.com', 'asdfg123', 'm5nzl1Ri3CdsK0e6d7hnfQ43c...
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:91: syntax error, unexpected tIDENTIFIER, expecting '}'
+...23', 'm5nzl1Ri3CdsK0e6d7hnfQ43c',
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:92: syntax error, unexpected tINTEGER, expecting '}'
+...                             '3MVG9xOCXq4ID1uEFUtg9aAbz6tVJQ...
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:93: syntax error, unexpected tINTEGER, expecting '}'
+                                     '832106501026385647')
+                                                        ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:93: unterminated string meets end of file):
+  app/controllers/leads_controller.rb:60: syntax error, unexpected tCONSTANT, expecting '}'
+  app/controllers/leads_controller.rb:60: syntax error, unexpected tSTRING_BEG, expecting '('
+  app/controllers/leads_controller.rb:74: syntax error, unexpected tCONSTANT, expecting '}'
+  app/controllers/leads_controller.rb:74: syntax error, unexpected tSTRING_BEG, expecting '('
+  app/controllers/leads_controller.rb:91: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/leads_controller.rb:91: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/leads_controller.rb:91: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/leads_controller.rb:92: syntax error, unexpected tINTEGER, expecting '}'
+  app/controllers/leads_controller.rb:93: syntax error, unexpected tINTEGER, expecting '}'
+  app/controllers/leads_controller.rb:93: unterminated string meets end of file
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.1ms)
+
+
+Started GET "/leads" for 127.0.0.1 at 2014-08-05 16:16:01 -0300
+
+SyntaxError (/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:60: syntax error, unexpected tCONSTANT, expecting '}'
+...edirect_to @lead, notice: 'Lead was successfully updated.' }
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:60: syntax error, unexpected tSTRING_BEG, expecting '('
+...Lead was successfully updated.' }
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:74: syntax error, unexpected tCONSTANT, expecting '}'
+...ect_to leads_url, notice: 'Lead was successfully destroyed.'...
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:74: syntax error, unexpected tSTRING_BEG, expecting '('
+...ad was successfully destroyed.' }
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:91: syntax error, unexpected tIDENTIFIER, expecting '}'
+...lesforceClient.new('thecaiogama@gmail.com', 'asdfg123', 'm5n...
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:91: syntax error, unexpected tIDENTIFIER, expecting '}'
+...ecaiogama@gmail.com', 'asdfg123', 'm5nzl1Ri3CdsK0e6d7hnfQ43c...
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:91: syntax error, unexpected tIDENTIFIER, expecting '}'
+...23', 'm5nzl1Ri3CdsK0e6d7hnfQ43c',
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:92: syntax error, unexpected tINTEGER, expecting '}'
+...                             '3MVG9xOCXq4ID1uEFUtg9aAbz6tVJQ...
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:93: syntax error, unexpected tINTEGER, expecting '}'
+                                     '832106501026385647')
+                                                        ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:93: unterminated string meets end of file):
+  app/controllers/leads_controller.rb:60: syntax error, unexpected tCONSTANT, expecting '}'
+  app/controllers/leads_controller.rb:60: syntax error, unexpected tSTRING_BEG, expecting '('
+  app/controllers/leads_controller.rb:74: syntax error, unexpected tCONSTANT, expecting '}'
+  app/controllers/leads_controller.rb:74: syntax error, unexpected tSTRING_BEG, expecting '('
+  app/controllers/leads_controller.rb:91: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/leads_controller.rb:91: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/leads_controller.rb:91: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/leads_controller.rb:92: syntax error, unexpected tINTEGER, expecting '}'
+  app/controllers/leads_controller.rb:93: syntax error, unexpected tINTEGER, expecting '}'
+  app/controllers/leads_controller.rb:93: unterminated string meets end of file
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.4ms)
+
+
+Started GET "/leads/new" for 127.0.0.1 at 2014-08-05 16:16:11 -0300
+
+SyntaxError (/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:60: syntax error, unexpected tCONSTANT, expecting '}'
+...edirect_to @lead, notice: 'Lead was successfully updated.' }
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:60: syntax error, unexpected tSTRING_BEG, expecting '('
+...Lead was successfully updated.' }
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:74: syntax error, unexpected tCONSTANT, expecting '}'
+...ect_to leads_url, notice: 'Lead was successfully destroyed.'...
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:74: syntax error, unexpected tSTRING_BEG, expecting '('
+...ad was successfully destroyed.' }
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:91: syntax error, unexpected tIDENTIFIER, expecting '}'
+...lesforceClient.new('thecaiogama@gmail.com', 'asdfg123', 'm5n...
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:91: syntax error, unexpected tIDENTIFIER, expecting '}'
+...ecaiogama@gmail.com', 'asdfg123', 'm5nzl1Ri3CdsK0e6d7hnfQ43c...
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:91: syntax error, unexpected tIDENTIFIER, expecting '}'
+...23', 'm5nzl1Ri3CdsK0e6d7hnfQ43c',
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:92: syntax error, unexpected tINTEGER, expecting '}'
+...                             '3MVG9xOCXq4ID1uEFUtg9aAbz6tVJQ...
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:93: syntax error, unexpected tINTEGER, expecting '}'
+                                     '832106501026385647')
+                                                        ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:93: unterminated string meets end of file):
+  app/controllers/leads_controller.rb:60: syntax error, unexpected tCONSTANT, expecting '}'
+  app/controllers/leads_controller.rb:60: syntax error, unexpected tSTRING_BEG, expecting '('
+  app/controllers/leads_controller.rb:74: syntax error, unexpected tCONSTANT, expecting '}'
+  app/controllers/leads_controller.rb:74: syntax error, unexpected tSTRING_BEG, expecting '('
+  app/controllers/leads_controller.rb:91: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/leads_controller.rb:91: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/leads_controller.rb:91: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/leads_controller.rb:92: syntax error, unexpected tINTEGER, expecting '}'
+  app/controllers/leads_controller.rb:93: syntax error, unexpected tINTEGER, expecting '}'
+  app/controllers/leads_controller.rb:93: unterminated string meets end of file
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.4ms)
+
+
+Started GET "/leads/new" for 127.0.0.1 at 2014-08-05 16:16:14 -0300
+
+SyntaxError (/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:60: syntax error, unexpected tCONSTANT, expecting '}'
+...edirect_to @lead, notice: 'Lead was successfully updated.' }
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:60: syntax error, unexpected tSTRING_BEG, expecting '('
+...Lead was successfully updated.' }
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:74: syntax error, unexpected tCONSTANT, expecting '}'
+...ect_to leads_url, notice: 'Lead was successfully destroyed.'...
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:74: syntax error, unexpected tSTRING_BEG, expecting '('
+...ad was successfully destroyed.' }
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:91: syntax error, unexpected tIDENTIFIER, expecting '}'
+...lesforceClient.new('thecaiogama@gmail.com', 'asdfg123', 'm5n...
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:91: syntax error, unexpected tIDENTIFIER, expecting '}'
+...ecaiogama@gmail.com', 'asdfg123', 'm5nzl1Ri3CdsK0e6d7hnfQ43c...
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:91: syntax error, unexpected tIDENTIFIER, expecting '}'
+...23', 'm5nzl1Ri3CdsK0e6d7hnfQ43c',
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:92: syntax error, unexpected tINTEGER, expecting '}'
+...                             '3MVG9xOCXq4ID1uEFUtg9aAbz6tVJQ...
+...                               ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:93: syntax error, unexpected tINTEGER, expecting '}'
+                                     '832106501026385647')
+                                                        ^
+/home/alessandrostein/gitrepo/salesforce-integrate/app/controllers/leads_controller.rb:93: unterminated string meets end of file):
+  app/controllers/leads_controller.rb:60: syntax error, unexpected tCONSTANT, expecting '}'
+  app/controllers/leads_controller.rb:60: syntax error, unexpected tSTRING_BEG, expecting '('
+  app/controllers/leads_controller.rb:74: syntax error, unexpected tCONSTANT, expecting '}'
+  app/controllers/leads_controller.rb:74: syntax error, unexpected tSTRING_BEG, expecting '('
+  app/controllers/leads_controller.rb:91: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/leads_controller.rb:91: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/leads_controller.rb:91: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/leads_controller.rb:92: syntax error, unexpected tINTEGER, expecting '}'
+  app/controllers/leads_controller.rb:93: syntax error, unexpected tINTEGER, expecting '}'
+  app/controllers/leads_controller.rb:93: unterminated string meets end of file
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.5ms)
+
+
+Started GET "/leads/new" for 127.0.0.1 at 2014-08-05 16:16:41 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LeadsController#new as HTML
+  Rendered leads/_form.html.erb (23.1ms)
+  Rendered leads/new.html.erb within layouts/application (26.9ms)
+Completed 200 OK in 73ms (Views: 58.6ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/assets/lead.css?body=1" for 127.0.0.1 at 2014-08-05 16:16:41 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 16:16:41 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-05 16:16:41 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 16:16:41 -0300
+
+
+Started GET "/assets/leads.css?body=1" for 127.0.0.1 at 2014-08-05 16:16:41 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 16:16:41 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 16:16:41 -0300
+
+
+Started GET "/assets/lead.js?body=1" for 127.0.0.1 at 2014-08-05 16:16:41 -0300
+
+
+Started GET "/assets/leads.js?body=1" for 127.0.0.1 at 2014-08-05 16:16:41 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 16:16:41 -0300
+
+
+Started POST "/leads" for 127.0.0.1 at 2014-08-05 16:16:46 -0300
+Processing by LeadsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qLKK8sC3fMPAGLW39AkwdWD/12z2tvHo3Xcl5kgAPsE=", "lead"=>{"name"=>"6", "last_name"=>"8", "email"=>"7", "company"=>"45", "job_title"=>"5", "phone"=>"5", "website"=>"4"}, "commit"=>"Create Lead"}
+  Rendered leads/_form.html.erb (5.3ms)
+  Rendered leads/new.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 2212ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/leads.css?body=1" for 127.0.0.1 at 2014-08-05 16:16:48 -0300
+
+
+Started GET "/assets/lead.css?body=1" for 127.0.0.1 at 2014-08-05 16:16:48 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-05 16:16:48 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 16:16:48 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 16:16:48 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 16:16:48 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 16:16:48 -0300
+
+
+Started GET "/assets/lead.js?body=1" for 127.0.0.1 at 2014-08-05 16:16:48 -0300
+
+
+Started GET "/assets/leads.js?body=1" for 127.0.0.1 at 2014-08-05 16:16:48 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 16:16:48 -0300

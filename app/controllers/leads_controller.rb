@@ -32,12 +32,22 @@ class LeadsController < ApplicationController
     @client = config_rd_person
 
     respond_to do |format|
-      if @lead.save
-        format.html { redirect_to @lead, notice: 'Lead was successfully created.' }
-        format.json { render :show, status: :created, location: @lead }
-      else
+      begin
+        if @client.create(@people)
+          if @lead.save
+            format.html { redirect_to @lead, notice: 'Lead was successfully created.' }
+            format.json { render :show, status: :created, location: @lead }
+          else
+            format.html { render :new }
+            format.json { render json: @lead.errors, status: :unprocessable_entity }
+          end
+        else
+          format.html { render :new }
+          format.json { render json: @client.errors, status: :unprocessable_entity }
+        end
+      rescue
         format.html { render :new }
-        format.json { render json: @lead.errors, status: :unprocessable_entity }
+        format.json { render json: @client.errors, status: :unprocessable_entity }
       end
     end
   end
