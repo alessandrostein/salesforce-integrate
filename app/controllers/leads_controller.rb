@@ -33,7 +33,8 @@ class LeadsController < ApplicationController
 
     respond_to do |format|
       begin
-        if @client.create(@people)
+        #if @client.create(@people)
+        if Resque.enqueue(CreatePersonJob, @client, @people)
           if @lead.save
             format.html { redirect_to @lead, notice: 'Lead was successfully created.' }
             format.json { render :show, status: :created, location: @lead }
@@ -47,7 +48,7 @@ class LeadsController < ApplicationController
         end
       rescue
         format.html { render :new }
-        format.json { render json: @client.errors, status: :unprocessable_entity }
+        format.json { render json: Resque.errors, status: :unprocessable_entity }
       end
     end
   end
