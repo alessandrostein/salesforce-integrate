@@ -89,11 +89,7 @@ class LeadsController < ApplicationController
     end
 
     def config_rd_person
-      #@client = SalesforceClient.new('', '', '', '', '')
-
-      @client = SalesforceClient.new('thecaiogama@gmail.com', 'asdfg123', 'm5nzl1Ri3CdsK0e6d7hnfQ43c',
-                                  '3MVG9xOCXq4ID1uEFUtg9aAbz6tVJQmBEjIi9_yUVbJ1VWIEHA6Jmia8rBxnd2CRW5agxrWFod4TabSeq4fx1',
-                                  '832106501026385647')
+      @client = SalesforceClient.new('', '', '', '', '')
     end
 
     def set_lead_rd_person
