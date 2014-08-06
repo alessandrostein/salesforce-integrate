@@ -28,7 +28,9 @@ gem 'spring',        group: :development
 
 gem 'rd_person', '~> 0.0.4'
 
-gem 'resque'
+gem 'resque-heroku'
+
+gem 'rails_12factor', group: :production
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -42,3 +44,4 @@ gem 'resque'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+ruby "2.1.2"

@@ -1,8 +1,8 @@
 require 'rd_person'
 
 class CreatePersonJob
-	@queue	= :createpeople
-
+	extend Resque::Plugins::Heroku
+	
 	def self.perform(client, lead)
 		client.create(lead)
 	end
