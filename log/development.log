@@ -2477,3 +2477,78 @@ Started GET "/assets/leads.js?body=1" for 127.0.0.1 at 2014-08-05 16:16:48 -0300
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 16:16:48 -0300
+
+
+Started GET "/leads/new" for 127.0.0.1 at 2014-08-05 23:34:11 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (73.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LeadsController#new as HTML
+  Rendered leads/_form.html.erb (67.9ms)
+  Rendered leads/new.html.erb within layouts/application (89.6ms)
+Completed 200 OK in 315ms (Views: 268.2ms | ActiveRecord: 19.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 23:34:13 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 23:34:13 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-05 23:34:13 -0300
+
+
+Started GET "/assets/lead.css?body=1" for 127.0.0.1 at 2014-08-05 23:34:13 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 23:34:13 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 23:34:13 -0300
+
+
+Started GET "/assets/leads.css?body=1" for 127.0.0.1 at 2014-08-05 23:34:13 -0300
+
+
+Started GET "/assets/lead.js?body=1" for 127.0.0.1 at 2014-08-05 23:34:13 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 23:34:13 -0300
+
+
+Started GET "/assets/leads.js?body=1" for 127.0.0.1 at 2014-08-05 23:34:13 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 23:34:13 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/railties-4.1.4/lib/rails/templates/rails/welcome/index.html.erb (0.7ms)
+Completed 200 OK in 157ms (Views: 155.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/internal/resque" for 127.0.0.1 at 2014-08-05 23:34:23 -0300
+
+
+Started GET "/internal/resque/overview" for 127.0.0.1 at 2014-08-05 23:34:24 -0300
+
+
+Started GET "/internal/resque/__sinatra__/500.png" for 127.0.0.1 at 2014-08-05 23:34:24 -0300
+
+
+Started GET "/internal/resque/overview" for 127.0.0.1 at 2014-08-05 23:46:40 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/internal/resque/jquery.relatize_date.js" for 127.0.0.1 at 2014-08-05 23:46:41 -0300
+
+
+Started GET "/internal/resque/reset.css" for 127.0.0.1 at 2014-08-05 23:46:41 -0300
+
+
+Started GET "/internal/resque/style.css" for 127.0.0.1 at 2014-08-05 23:46:41 -0300
+
+
+Started GET "/internal/resque/jquery-1.3.2.min.js" for 127.0.0.1 at 2014-08-05 23:46:41 -0300
+
+
+Started GET "/internal/resque/ranger.js" for 127.0.0.1 at 2014-08-05 23:46:41 -0300
+
+
+Started GET "/internal/resque/poll.png" for 127.0.0.1 at 2014-08-05 23:46:41 -0300
