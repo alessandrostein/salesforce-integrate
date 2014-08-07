@@ -21,9 +21,11 @@
   # http://guides.rubyonrails.org/configuring.html#database-pooling
    pool: 5
 
-# development:
-#   <<: *default
-#   database: PostGreSQL_SalesForce_development
+ development:
+   <<: *default
+   database: PostGreSQL_SalesForce_development
+   username: postgres
+   password: system
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
