@@ -14,12 +14,12 @@
 # Configure Using Gemfile
 # gem 'pg'
 #
-# default: &default
-#   adapter: postgresql
-#   encoding: unicode
+ default: &default
+   adapter: postgresql
+   encoding: unicode
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
-#   pool: 5
+   pool: 5
 
 # development:
 #   <<: *default
@@ -78,24 +78,8 @@
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-# production:
-#   <<: *default
-#   database: PostGreSQL_SalesForce_production
+ production:
+   <<: *default
+   database: PostGreSQL_SalesForce_production
 #   username: PostGreSQL_SalesForce
-#   password: <%= ENV['POSTGRESQL_SALESFORCE_DATABASE_PASSWORD'] %>
-
-development:
-  adapter: postgresql
-  encoding: unicode
-  database: myapp_development
-  pool: 5
-  username: postgres
-  password: system
-
-test:
-  adapter: postgresql
-  encoding: unicode
-  database: myapp_test
-  pool: 5
-  username: postgres
-  password: system
+   password: <%= ENV['POSTGRESQL_SALESFORCE_DATABASE_PASSWORD'] %>
