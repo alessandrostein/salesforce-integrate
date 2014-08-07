@@ -152,6 +152,7 @@ DEPENDENCIES
   pg
   rails (= 4.1.4)
   rails_12factor
+  railties
   rd_person (~> 0.0.4)
   resque-heroku
   sass-rails (~> 4.0.3)

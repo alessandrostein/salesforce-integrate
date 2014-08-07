@@ -1,7 +1,15 @@
 require 'rd_person'
 
 class LeadsController < ApplicationController
+  extend Resque::Plugins::Heroku
+  
   before_action :set_lead, only: [:show, :edit, :update, :destroy]
+
+  def self.perform()
+    config_rd_person
+    set_lead_rd_person()
+    @client.create(@people)
+  end
 
   # GET /leads
   # GET /leads.json
@@ -28,13 +36,10 @@ class LeadsController < ApplicationController
   def create
     @lead = Lead.new(lead_params)
 
-    @people = set_lead_rd_person
-    @client = config_rd_person
-
     respond_to do |format|
       begin
         #if @client.create(@people)
-        if Resque.enqueue(CreatePersonJob, @client, @people)
+        if Resque.enqueue(LeadsController)
           if @lead.save
             format.html { redirect_to @lead, notice: 'Lead was successfully created.' }
             format.json { render :show, status: :created, location: @lead }
@@ -86,7 +91,7 @@ class LeadsController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def lead_params
       params.require(:lead).permit(:name, :last_name, :email, :company, :job_title, :phone, :website)
-    end
+    end    
 
     def config_rd_person
       @client = SalesforceClient.new('', '', '', '', '')
@@ -95,5 +100,5 @@ class LeadsController < ApplicationController
     def set_lead_rd_person
       @people = Person.new(@lead.name, @lead.last_name, @lead.email, @lead.company, 
                            @lead.job_title, @lead.phone, @lead.website)
-    end
+    end   
 end
