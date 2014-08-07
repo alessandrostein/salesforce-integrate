@@ -94,7 +94,8 @@ class LeadsController < ApplicationController
     end    
 
     def config_rd_person
-      @client = SalesforceClient.new('', '', '', '', '')
+      @client = SalesforceClient.new(salesforce_username, salesforce_password, salesforce_security_token,
+                                     salesforce_client_id, salesforce_client_secret)
     end
 
     def set_lead_rd_person
