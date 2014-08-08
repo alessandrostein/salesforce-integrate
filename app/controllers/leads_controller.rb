@@ -109,7 +109,7 @@ class LeadsController < ApplicationController
       puts 'SALESFORCE_USERNAME:' 
       puts salesforce_username
       puts 'SALESFORCE_PASSWORD:' 
-      puts salsforce_password
+      puts salesforce_password
       puts 'SALESFORCE_SECURITY_TOKEN:' 
       puts salesforce_security_token
       puts 'SALESFORCE_CLIENT_ID:'
