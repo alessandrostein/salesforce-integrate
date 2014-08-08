@@ -36,6 +36,8 @@ class LeadsController < ApplicationController
   def create
     @lead = Lead.new(lead_params)
 
+    LeadsController.self.perform
+
     respond_to do |format|
       begin
         #if @client.create(@people)

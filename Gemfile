@@ -34,7 +34,7 @@ gem 'rails_12factor', group: :production
 
 gem 'railties'
 
-gem 'resque'
+gem 'resque', "~> 1.22.0"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
