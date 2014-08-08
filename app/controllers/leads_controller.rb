@@ -99,6 +99,13 @@ class LeadsController < ApplicationController
       @salesforce_security_token = ENV["SALESFORCE_SECURITY_TOKEN"]
       @salesforce_client_id = ENV["SALESFORCE_CLIENT_ID"] 
       @salesforce_client_secret = ENV["SALESFORCE_CLIENT_SECRET"]
+
+      puts 'Variaveis de ambiente'
+      puts 'SALESFORCE_USERNAME: #{@salesforce_username}'
+      puts 'SALESFORCE_PASSWORD: #{@salesforce_password}'
+      puts 'SALESFORCE_SECURITY_TOKEN: #{@salesforce_security_token}'
+      puts 'SALESFORCE_CLIENT_ID: #{@salesforce_client_id}'
+      puts 'SALESFORCE_CLIENT_SECRET: #{@salesforce_client_secret}'
   
       @client = SalesforceClient.new(@salesforce_username, @salesforce_password, @salesforce_security_token,
                                      @salesforce_client_id, @salesforce_client_secret)
