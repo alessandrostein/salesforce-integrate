@@ -57,8 +57,8 @@ class LeadsController < ApplicationController
           format.json { render json: @client.errors, status: :unprocessable_entity }
         end
       rescue
-        format.html { render :new, notice: 'Error the connect SalesforceClient' }
-        format.json { render json: Resque.errors, status: :unprocessable_entity }
+        format.html { redirect_to @lead, notice: 'Error the connect SalesforceClient' }
+        format.json { render :show, status: :created, location: @lead}
       end
     end
   end
@@ -105,18 +105,6 @@ class LeadsController < ApplicationController
       salesforce_client_id = ENV["SALESFORCE_CLIENT_ID"] 
       salesforce_client_secret = ENV["SALESFORCE_CLIENT_SECRET"]
 
-      puts 'Variaveis de ambiente'
-      puts 'SALESFORCE_USERNAME:' 
-      puts salesforce_username
-      puts 'SALESFORCE_PASSWORD:' 
-      puts salesforce_password
-      puts 'SALESFORCE_SECURITY_TOKEN:' 
-      puts salesforce_security_token
-      puts 'SALESFORCE_CLIENT_ID:'
-      puts  salesforce_client_id
-      puts 'SALESFORCE_CLIENT_SECRET:'
-      puts  salesforce_client_secret
-  
       @client = SalesforceClient.new(salesforce_username, salesforce_password, salesforce_security_token,
                                      salesforce_client_id, salesforce_client_secret)
     end
