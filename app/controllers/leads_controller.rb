@@ -5,6 +5,7 @@ class LeadsController < ApplicationController
   
   before_action :set_lead, only: [:show, :edit, :update, :destroy]
 
+  # Remove Resque
   def self.perform
     config_rd_person
     set_lead_rd_person
@@ -36,7 +37,9 @@ class LeadsController < ApplicationController
   def create
     @lead = Lead.new(lead_params)
 
-    LeadsController.self.perform
+    config_rd_person
+    set_lead_rd_person
+    @client.create(@people)
 
     respond_to do |format|
       begin
