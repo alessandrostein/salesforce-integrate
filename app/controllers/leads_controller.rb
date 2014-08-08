@@ -94,6 +94,12 @@ class LeadsController < ApplicationController
     end    
 
     def config_rd_person
+      salesforce_username = ENV["SALESFORCE_USERNAME"]
+      salesforce_password =  ENV["SALESFORCE_PASSWORD"]
+      salesforce_security_token = ENV["SALESFORCE_SECURITY_TOKEN"]
+      salesforce_client_id = ENV["SALESFORCE_CLIENT_ID"] 
+      salesforce_client_secret = ENV["SALESFORCE_CLIENT_SECRET"]
+  
       @client = SalesforceClient.new(salesforce_username, salesforce_password, salesforce_security_token,
                                      salesforce_client_id, salesforce_client_secret)
     end
