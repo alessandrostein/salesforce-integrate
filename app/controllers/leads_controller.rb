@@ -5,9 +5,9 @@ class LeadsController < ApplicationController
   
   before_action :set_lead, only: [:show, :edit, :update, :destroy]
 
-  def self.perform()
+  def self.perform
     config_rd_person
-    set_lead_rd_person()
+    set_lead_rd_person
     @client.create(@people)
   end
 
