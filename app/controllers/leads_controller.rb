@@ -43,8 +43,8 @@ class LeadsController < ApplicationController
 
     respond_to do |format|
       begin
-        #if @client.create(@people)
-        if Resque.enqueue(LeadsController)
+        if @client.create(@people)
+        #if Resque.enqueue(LeadsController)
           if @lead.save
             format.html { redirect_to @lead, notice: 'Lead was successfully created.' }
             format.json { render :show, status: :created, location: @lead }
