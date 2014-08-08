@@ -107,15 +107,15 @@ class LeadsController < ApplicationController
 
       puts 'Variaveis de ambiente'
       puts 'SALESFORCE_USERNAME:' 
-      puts @salesforce_username}
+      #puts @salesforce_username}
       puts 'SALESFORCE_PASSWORD:' 
-      puts @salsforce_password}
+      #puts @salsforce_password}
       puts 'SALESFORCE_SECURITY_TOKEN:' 
-      puts @salesforce_security_token}
+      #puts @salesforce_security_token}
       puts 'SALESFORCE_CLIENT_ID:'
-      puts  @salesforce_client_id
+      #puts  @salesforce_client_id
       puts 'SALESFORCE_CLIENT_SECRET:'
-      puts  @salesforce_client_secret
+      #puts  @salesforce_client_secret
   
       @client = SalesforceClient.new(@salesforce_username, @salesforce_password, @salesforce_security_token,
                                      @salesforce_client_id, @salesforce_client_secret)
